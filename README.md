@@ -2,27 +2,28 @@
 
 Second moment matrix M is defined as: 
 
-$$M = \sum_{x,y}w(x,y)\begin{pmatrix}
+$$M = \sum_{x,y}w(x,y)\begin{bmatrix}
 I_x^2&I_xI_y\\
 I_xI_y&I_y^2\\
-\end{pmatrix}$$
+\end{bmatrix}$$
 
 Where, w (x,y) is a 3x3 window function and its value is 1 for all x and y, $I_x$ is the gradient of I with
 respect to x and $I_y$ is the gradient of I with respect to y.
 
 ## Input Image I
 
-| 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 50  | 60  | 60  | 60  | 60  | 60  | 10  | 10  |
-| 10  | 10  | 50  | 60  | 60  | 60  | 60  | 60  | 10  | 10  |
-| 10  | 10  | 50  | 50  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 50  | 50  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 50  | 50  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 50  | 50  | 10  | 10  | 10  | 10  | 10  | 10  |
-| 10  | 10  | 50  | 50  | 10  | 10  | 10  | 10  | 10  | 10  |
+$$\begin{bmatrix}
+10&10&10&10&10&10&10&10&10&10\\
+10&10&10&10&10&10&10&10&10&10\\
+10&10&10&10&10&10&10&10&10&10\\
+10&10&50&60&60&60&60&60&10&10\\
+10&10&50&60&60&60&60&60&10&10\\
+10&10&50&50&10&10&10&10&10&10\\
+10&10&50&50&10&10&10&10&10&10\\
+10&10&50&50&10&10&10&10&10&10\\
+10&10&50&50&10&10&10&10&10&10\\
+10&10&50&50&10&10&10&10&10&10\\
+\end{bmatrix}$$
 
 1) Find the gradient of the input image with respect to x and y. Gradients of image I with respect to x
 and y are given as;
