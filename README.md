@@ -28,9 +28,9 @@ $$\begin{bmatrix}
 1) Find the gradient of the input image with respect to x and y. Gradients of image I with respect to x
 and y are given as;
 
-$$\frac{\partial I}{\partial x}[x,y] = {I_x $\approx$ I[x+ 1, y] - I[x, y]}$$
+$$\frac{\partial I}{\partial x}[x,y] = {I_x \approx I[x+ 1, y] - I[x, y]}$$
 
-$$\frac{\partial I}{\partial y}[x,y] = {I_y $\approx$ I[x, y+1] - I[x, y]}$$
+$$\frac{\partial I}{\partial y}[x,y] = {I_y \approx I[x, y+1] - I[x, y]}$$
 
 2) Find matrix M for the pixels marked by red. Window function w(x,y) is a 3x3 window with all values
 equal to 1.
