@@ -7,8 +7,8 @@ I_x^2&I_xI_y\\
 I_xI_y&I_y^2\\
 \end{pmatrix}$$
 
-Where, w (x,y) is a 3x3 window function and its value is 1 for all x and y, Ix is the gradient of I with
-respect to x and Iy is the gradient of I with respect to y.
+Where, w (x,y) is a 3x3 window function and its value is 1 for all x and y, $$I_x$$ is the gradient of I with
+respect to x and $$I_y$$ is the gradient of I with respect to y.
 
 ## Input Image I
 
